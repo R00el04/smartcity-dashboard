@@ -1,0 +1,23 @@
+{
+  "count": 1,
+  "events": [
+    {
+      "createdAt": "2026-04-29T01:43:25.005000+00:00",
+      "deviceId": "A1",
+      "eventDate": "2026-04-28",
+      "eventHour": "16",
+      "eventId": "A1_20260428T163000Z_5476f924",
+      "severity": "normal",
+      "temperature": 34.0,
+      "timestamp": "2026-04-28T16:30:00Z",
+      "zone": "Centro"
+    }
+  ],
+  "filters": {
+    "deviceId": null,
+    "eventDate": null,
+    "limit": 50,
+    "zone": null
+  },
+  "success": true
+}
