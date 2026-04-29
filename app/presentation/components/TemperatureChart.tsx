@@ -85,7 +85,14 @@ export const TemperatureChart: React.FC<TemperatureChartProps> = ({ events, visi
         borderWidth: 1,
         padding: 12,
         cornerRadius: 12,
-      },
+        displayColors: false,
+        callbacks: {
+            label: (context) => {
+                const event = sortedEvents[context.dataIndex];
+                return [`Temp: ${event.temperature}°C`, `Zona: ${event.zone}`];
+            }
+        }
+      }
     },
     scales: {
       y: {
